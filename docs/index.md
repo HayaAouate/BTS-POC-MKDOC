@@ -1,17 +1,26 @@
-# Welcome to MkDocs
+# MkDocs
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Installation
+:smile:
 
-## Commands
+shell
+python -m venv venv
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+<br>
 
-## Project layout
+sous mac OS et linux
+shell
+python venv/bin/activate
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+<br>
+
+sous windows
+shell
+Powershell : venv\Scripts\activate.ps1
+Cmd : venv\Scripts\activate.bat
+
+<br>
+
+Installation du thème Material
+shell
+pip install mkdocs-material
